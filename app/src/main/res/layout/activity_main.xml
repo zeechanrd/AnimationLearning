@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wuzch.animationlearning.MainActivity">
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btnAnimate"
+        android:text="@string/animate_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btnRotate"
+        android:text="@string/rotate_me"
+        android:background="#1E88E5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:layout_gravity="center"
+        android:id="@+id/btnSetAnime"
+        android:text="@string/set_anime"
+        android:background="#f44848"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:id="@+id/btnCustomAnime"
+        android:text="@string/re_shake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AnimationLearning</string>
+    <string name="animate_me">Animate me</string>
+    <string name="app_name2">LayoutAnimationDemo</string>
+    <string name="rotate_me">Rotate me</string>
+    <string name="set_anime">混合动画</string>
+    <string name="re_shake">自定义动画-左右来回摇摆</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">settings</string>
+</resources>
